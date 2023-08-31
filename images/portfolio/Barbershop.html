@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbershop</title>
+  
+  
+  
+  
+  
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Barbershop_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Barbershop_files/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Barbershop_files/main.min.css"></head>
+
+<body>
+  <!-- Header page -->
+  <header class="header">
+    <div class="container">
+      <a href="http://127.0.0.1:5500/index.html" class="logo">
+        <svg class="logo__icon" width="69" height="55">
+          <use href="./images/symbol-defs.svg#logo"></use>
+        </svg>
+      </a>
+      <button type="button" class="header__btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="header__icon" aria-label="Перемикач мобільного меню" width="24" height="16">
+          <use href="./images/symbol-defs.svg#menu"></use>
+        </svg>
+      </button>
+
+      <div class="mobile-backdrop js-menu-container" id="mobile-menu">
+        <div class="mobile-menu">
+          <button type="button" class="mobile-menu__btn js-close-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="mobile-menu__icon" aria-label="Перемикач мобільного меню" width="19" height="19">
+              <use href="./images/symbol-defs.svg#x"></use>
+            </svg>
+          </button>
+          <nav class="header-nav">
+            <ul class="header-nav__list list">
+              <li class="header-nav__item"><a href="http://127.0.0.1:5500/" class="header-nav__link">About</a></li>
+              <li class="header-nav__item"><a href="http://127.0.0.1:5500/" class="header-nav__link">Services and prices</a></li>
+              <li class="header-nav__item"><a href="http://127.0.0.1:5500/" class="header-nav__link">Barbers</a></li>
+              <li class="header-nav__item"><a href="http://127.0.0.1:5500/" class="header-nav__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="header-contact list">
+            <li class="header-contact__item">
+              <a href="tel:+380441111111" class="header-contact__link">+38 044 111 11 11</a>
+            </li>
+            <li class="header-contact__item">
+              <button class="header-contact__btn" type="button">Online-booking</button>
+            </li>
+          </ul>
+          <ul class="mobile-menu__socials list">
+            <li class="mobile-menu__socials-item">
+              <a href="http://127.0.0.1:5500/" class="mobile-menu__socials-link">Instagram</a>
+            </li>
+            <li class="mobile-menu__socials-item">
+              <a href="http://127.0.0.1:5500/" class="mobile-menu__socials-link">Youtube</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__aside">
+          <ul class="aside-links list">
+            <li class="aside-links__item"><a href="http://127.0.0.1:5500/" class="aside-links__link">Youtube</a></li>
+            <li class="aside-links__item"><a href="http://127.0.0.1:5500/" class="aside-links__link">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="hero__wrapper">
+          <p class="hero__pretitle pretitle">A hair salon for men in Kyiv</p>
+          <h1 class="hero__title">BarberShop</h1>
+          <p class="hero__text">We are experts in trendy men’s haircuts.
+            We work quickly, carefully and with style.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About us section -->
+    <section class="about-us">
+      <div class="container">
+        <ul class="about-us__list list">
+          <li class="about-us__item">
+            <picture>
+              <source srcset="./images/about-us/barber-tabl1.jpg, ./images/about-us/barber-tabl1@2x.jpg  2x" media="(max-width:1199.98px)">
+              <source srcset="./images/about-us/barber-desk1.jpg, ./images/about-us/barber-desk1@2x.jpg  2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/barber-tabl1.jpg" alt="Shaving a beard">
+            </picture>
+          </li>
+          <li class="about-us__item">
+            <picture>
+              <source srcset="./images/about-us/barber-tabl2.jpg, ./images/about-us/barber-tabl2@2x.jpg  2x" media="(max-width:1199.98px)">
+              <source srcset="./images/about-us/barber-desk2.jpg, ./images/about-us/barber-desk2@2x.jpg  2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/barber-tabl2.jpg" alt="cuts his head">
+            </picture>
+
+          </li>
+        </ul>
+        <div class="about-us__wrapper">
+          <p class="about-us__pretitle pretitle">About</p>
+          <h2 class="title about-us__title">Best Barbershop in your city</h2>
+          <p class="about-us__subtitle">If you want to add more confidence to your image, you should visit us</p>
+          <p class="about-us__text">We are a team that never stops at what has been achieved and are thirsty for
+            changes. And when you fall into the hands
+            of our master, you will never be the same again. We are a team that is always "on the same wave" with
+            clients.
+            Therefore, we are always ready to improve everyone who comes to us!</p>
+          <button class="about-us__btn">Online-booking</button>
+        </div>
+      </div>
+
+    </section>
+    <!-- Services and prices section-->
+    <section class="prices">
+      <div class="container">
+        <p class="pretitle prices__pretitle">Spend your time with the best masters</p>
+        <h2 class="title prices__title">Services and prices</h2>
+        <div class="prices__wrapper">
+          <ul class="prices__list list">
+            <li class="li prices__item">
+              <p class="prices__text">Men’s haircut</p>
+              <p class="prices__text">from 300 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Beard trim</p>
+              <p class="prices__text">from 300 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Mustache trim</p>
+              <p class="prices__text">from 200 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Straight razor shave</p>
+              <p class="prices__text">from 200 uah.</p>
+            </li>
+          </ul>
+          <ul class="prices__list list">
+            <li class="li prices__item">
+              <p class="prices__text">Trainee’s haircut</p>
+              <p class="prices__text">from 50 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Haircut under the nozzle</p>
+              <p class="prices__text">from 200 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Children’s haircut (0-12 y.o.)</p>
+              <p class="prices__text">from 300 uah.</p>
+            </li>
+            <li class="li prices__item">
+              <p class="prices__text">Camouflage of gray hair</p>
+              <p class="prices__text">from 200 uah.</p>
+            </li>
+          </ul>
+        </div>
+        <button class="prices__btn">Online-booking</button>
+      </div>
+    </section>
+    <!-- Our-choice section -->
+    <section class="our-choice">
+      <div class="container">
+        <div class="our-choice__wrapper">
+          <p class="our-choice__pretitle pretitle">Old traditional school</p>
+          <h2 class="our-choice__title title">¿Why people come to us?</h2>
+          <p class="our-choice__text">Only good things are said about us. But it's better to see and feel 1 time than
+            read 10 times.</p>
+        </div>
+        <ul class="our-choice__list list">
+          <li class="our-choice__item">
+            <b class="our-choice__headline">600<sup class="our-choice__sup">+</sup></b>
+            <p class="our-choice__description">Satisfied customers per day</p>
+          </li>
+          <li class="our-choice__item">
+            <b class="our-choice__headline">50<sup class="our-choice__sup">+</sup></b>
+            <p class="our-choice__description">Awards for excellent service</p>
+
+          </li>
+          <li class="our-choice__item">
+            <b class="our-choice__headline">20<sup class="our-choice__sup">+</sup></b>
+            <p class="our-choice__description">Kyiv’s best
+              barbers</p>
+          </li>
+          <li class="our-choice__item">
+            <b class="our-choice__headline">100<sup class="our-choice__sup">+</sup></b>
+            <p class="our-choice__description">Gifts for regular customers</p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <!-- Our barbers section -->
+    <section class="our-barbers">
+      <div class="container">
+        <p class="our-barbers__pretitle pretitle">For true enjoyers of the atmosphere</p>
+        <h2 class="our-barbers__title title">Our barbers</h2>
+        <ul class="our-barbers__list list">
+          <li class="our-barbers__item">
+            <picture>
+              <source srcset="./images/our-barbers/john-tel.jpg, ./images/our-barbers/john-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/our-barbers/john-tabl.jpg, ./images/our-barbers/john-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/our-barbers/john-desk.jpg, ./images/our-barbers/john-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/john-tel.jpg" alt="John Smith">
+            </picture>
+            <div class="our-barbers__wrapper">
+              <h3 class="our-barbers__name">John Smith</h3>
+              <p class="our-barbers__position">Extreme Barber</p>
+              <ul class="our-barbers__social-list list">
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Instagram" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Twitter" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Facebook" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="LinkedIn" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="our-barbers__item">
+            <picture class="our-barbers__img">
+              <source srcset="./images/our-barbers/michele-tel.jpg, ./images/our-barbers/michele-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/our-barbers/michele-tabl.jpg, ./images/our-barbers/michele-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/our-barbers/michele-desk.jpg, ./images/our-barbers/michele-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/michele-tel.jpg" alt="Michele Doe">
+            </picture>
+            <div class="our-barbers__wrapper">
+              <h3 class="our-barbers__name">Michele Doe</h3>
+              <p class="our-barbers__position">Extreme Barber</p>
+              <ul class="our-barbers__social-list list">
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Instagram" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Twitter" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Facebook" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="LinkedIn" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="our-barbers__item">
+            <picture>
+              <source srcset="./images/our-barbers/alan-tel.jpg, ./images/our-barbers/alan-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/our-barbers/alan-tabl.jpg, ./images/our-barbers/alan-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/our-barbers/alan-desk.jpg, ./images/our-barbers/alan-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/alan-tel.jpg" alt="Alan Black">
+            </picture>
+            <div class="our-barbers__wrapper">
+              <h3 class="our-barbers__name">Alan Black</h3>
+              <p class="our-barbers__position">Extreme Barber</p>
+              <ul class="our-barbers__social-list list">
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Instagram" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Twitter" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="Facebook" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our-barbers__social-item">
+                  <a href="http://127.0.0.1:5500/" target="_blank" aria-label="LinkedIn" class="our-barbers__social-link">
+                    <svg class="our-barbers__social-icon" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Our portfolio section -->
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title visually-hidden">Our portfolio</h2>
+        <p class="portfolio__pretitle pretitle">In Latin, "barba" means "beard"</p>
+        <ul class="portfolio__list list">
+          <li class="portfolio__item">
+            <picture>
+              <source srcset="./images/portfolio/example1-tel.jpg, ./images/portfolio/example1-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/portfolio/example1-tabl.jpg, ./images/portfolio/example1-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/portfolio/example1-desk.jpg, ./images/portfolio/example1-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/example1-tel.jpg" alt="Haircut head">
+            </picture>
+          </li>
+          <li class="portfolio__item">
+            <picture>
+              <source srcset="./images/portfolio/example2-tel.jpg, ./images/portfolio/example2-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/portfolio/example2-tabl.jpg, ./images/portfolio/example2-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/portfolio/example2-desk.jpg, ./images/portfolio/example2-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/example2-tel.jpg" alt="Shaves beard">
+            </picture>
+          </li>
+          <li class="portfolio__item">
+            <picture>
+              <source srcset="./images/portfolio/example3-tel.jpg, ./images/portfolio/example3-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/portfolio/example3-tabl.jpg, ./images/portfolio/example3-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/portfolio/example3-desk.jpg, ./images/portfolio/example3-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/example3-tel.jpg" alt="Steaming face with towel">
+            </picture>
+
+          </li>
+          <li class="portfolio__item">
+            <picture>
+              <source srcset="./images/portfolio/example4-tel.jpg, ./images/portfolio/example4-tel@2x.jpg 2x" media="(max-width:767.98px)">
+              <source srcset="./images/portfolio/example4-tabl.jpg, ./images/portfolio/example4-tabl@2x.jpg 2x" media="(min-width:768px) and (max-width:1199.98px)">
+              <source srcset="./images/portfolio/example4-desk.jpg, ./images/portfolio/example4-desk@2x.jpg 2x" media="(min-width:1200px)">
+              <img src="./Barbershop_files/example4-tel.jpg" alt="Pluck hairs">
+            </picture>
+
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Online-booking and Contact wrapper -->
+    <div class="section-wrapper">
+      <!-- Online-booking section -->
+      <section class="online-booking">
+        <div class="container">
+          <h2 class="online-booking__title">Online-booking</h2>
+          <form class="online-booking__form">
+            <label class="online-booking__field">
+              <input type="text" name="name" placeholder=" " class="online-booking__input" required="">
+              <span class="online-booking__label">Name*</span>
+            </label>
+            <label class="online-booking__field">
+              <input type="tel" name="phone" placeholder=" " class="online-booking__input">
+              <span class="online-booking__label">Phone*</span>
+            </label>
+            <label class="online-booking__field">
+              <textarea name="comment" rows="1" placeholder=" " class="online-booking__textarea"></textarea>
+              <span class="online-booking__label">Message</span>
+            </label>
+            <button type="submit" class="online-booking__btn">send</button>
+          </form>
+        </div>
+      </section>
+      <!-- Contacts section -->
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="https://goo.gl/maps/ZN95gvH9orjxXzk27" target="_blank" rel="noreferrer noopener" class="contacts__link">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#map-pin"></use>
+                </svg>
+                st. Vasilkovaya, 7A
+                Kiev, 08132
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="tel:+380441111111" class="contacts__link">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#phone"></use>
+                </svg>
+                +38 044 111 11 11
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="mailto:barbershop@email.com" class="contacts__link">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#mail"></use>
+                </svg>
+                barbershop@email.com
+              </a>
+            </li>
+          </ul>
+          <p class="contacts__pretitle">Working hours</p>
+          <p class="contacts__text">Every day from 9:00 to 22:00</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">©Copyright 2022</p>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="http://127.0.0.1:5500/" class="footer__link">Instagram</a></li>
+        <li class="footer__item"><a href="http://127.0.0.1:5500/" class="footer__link">Youtube</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./Barbershop_files/mobile-menu.js.Без названия"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
